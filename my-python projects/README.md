@@ -1,3 +1,3 @@
 - HEY, welcome to my projects.
 - Here you'll find some simple python programs writen by me
-- Feel free tp make any changes to make the code better!!
+- Feel free to make any changes to make the code better!!
