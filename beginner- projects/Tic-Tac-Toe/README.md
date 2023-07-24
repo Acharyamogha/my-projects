@@ -1,0 +1,2 @@
+- Here you'll find a simple program to implement the tic tac toe game.
+- This game runs in the terminal and can be played against the computer.
