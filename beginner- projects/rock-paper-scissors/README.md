@@ -1,0 +1,2 @@
+-This folder contains python code to implement Rock Paper Scissors game.
+- This can be played against the computer, where the computer chooses from a set of 3 options and decides the winner.
