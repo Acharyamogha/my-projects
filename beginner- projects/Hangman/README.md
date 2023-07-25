@@ -1,0 +1,2 @@
+- This folder contains the python code to implement a hangman game.
+- This game takes words from a list of words collected in a seperate program.
