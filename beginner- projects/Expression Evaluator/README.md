@@ -1,0 +1,1 @@
+- This is a simple Expression evaluator, created using Tkinter module, that evluates the expression entered by the User.
