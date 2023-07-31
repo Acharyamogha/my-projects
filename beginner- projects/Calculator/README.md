@@ -1,0 +1,2 @@
+-This is a GUI based calculator created using Tkinter module.
+-This calculator evaluates integer expressions and produces the result.
