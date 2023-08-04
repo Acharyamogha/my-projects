@@ -17,8 +17,8 @@ class Ball:
         self.canvas.move(self.id,245,100)
         start=[-3,-2,-1,0,1,2,3]
         random.shuffle(start)
-        self.y=start[0]
-        self.x=-3
+        self.x=start[0]
+        self.y=-3
         self.canvas_height=self.canvas.winfo_height()
         self.canvas_width=self.canvas.winfo_width()
         self.hit_bottom=False
@@ -62,9 +62,9 @@ class Paddle:
         if pos[2]>=self.canvas_width:
             self.x=0
     def turn_left(self, evt):
-        self.x=-2
+        self.x=-4
     def turn_right(self, evt):
-        self.x=2
+        self.x=4
 
 paddle=Paddle(canvas, "black")
 ball=Ball(canvas,paddle,"red")
