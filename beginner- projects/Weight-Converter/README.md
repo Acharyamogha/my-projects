@@ -1,0 +1,2 @@
+- This is a simple weight converter using tkinter
+- The program coverts thr given weight in kg to grams, ounce and pounds.
