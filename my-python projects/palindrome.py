@@ -1,15 +1,17 @@
-num1=int(input("Enter the marks in 1st Subject: "))
-num2=int(input("Enter the marks in 2nd Subject: "))
-num3=int(input("Enter the marks in 3rd Subject: "))
-
-if num1>num2:
-    if num2>num3:
-        total=num1+num2
-    else:
-        total=num1+num3
-elif num1>num3:
-    total=num1+num2
+num=int(input("Enter a number"))
+temp=num
+rev,count=0,0
+while num>0:
+ dig=num%10
+ rev=rev*10+dig
+ num=num//10
+if(temp==rev):
+ print("the number is a palindrome")
+ n=int(input("Enter a digit to find occurance"))
+ while temp>0:
+ if temp%10 == n:
+ count+=1
+ temp//=10
+ print(f"Number of occurance of {n} is {count}")
 else:
-    total=num2+num3
-avg=total/2
-print("Average of two best marks is ",avg)
+ print("number isnt a palindrome")
